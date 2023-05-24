@@ -10,6 +10,18 @@ document.getElementById('title').style.color ='green'
 document.getElementById('fru').textTransform='uppercase'
 document.getElementById('vege').textTransform='uppercase'
 
+// Add one more fruit to the fruits list
+let fruits = document.createElement('fruiList')
+fruits.innerHTML='ovacado'
+document.getElementById('fruList').appendChild(fruits)
+
+// Add one more vegetable to the vegetableslist
+let friuts = document.createElement('vegList')
+vegetables.innerHTML='ovacado'
+document.getElementById('vegList').appendChild(vegetables)
+
+
+
 
 
 
